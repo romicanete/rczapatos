@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rc zapatos | Zapatos y Zapatillas</title>
+    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"> RC<span>ZAPATOS</span></a>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+        </nav>
+
+        <a href="#productos" class="btn-header">Comprar</a>
+    </header>
+
+    <section class="portada" id="inicio">
+        <div class="portada-texto">
+            <span class="etiqueta">NUEVA COLECCIÓN 2026</span>
+            <h1>Tu estilo,<br>tu <span>camino.</span></h1>
+            <p>
+                Descubrí los mejores zapatos y zapatillas.
+                Comodidad, moda y estilo en un solo lugar.
+            </p>
+            <a href="#productos" class="boton">Ver colección →</a>
+        </div>
+
+        <div class="portada-imagen">
+            <img
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85"
+                alt="Zapatilla deportiva roja">
+            <div class="burbuja"><br>Nuevo estilo</div>
+        </div>
+
+        <div class="decoracion decoracion1"></div>
+        <div class="decoracion decoracion2"></div>
+    </section>
+
+    <section class="beneficios">
+        <div>Envíos a todo el país</div>
+        <div> Pagos seguros</div>
+        <div> Estilo para todos</div>
+    </section>
+
+    <section class="productos" id="productos">
+        <div class="titulo">
+            <span>NUESTRA COLECCIÓN</span>
+            <h2>Encontrá tu próximo par</h2>
+            <p>Elegí tu favorito y tocá la imagen para  moverse.</p>
+        </div>
+
+        <div class="categorias">
+            <a href="#productos">Todos</a>
+            <a href="#zapatillas">Zapatillas</a>
+            <a href="#zapatos">Zapatos</a>
+        </div>
+
+        <div class="catalogo">
+
+            <article class="tarjeta" id="zapatillas">
+                <div class="foto-producto">
+                    <span class="oferta"></span>
+                    <img class="producto-img"
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=85"
+                        alt="Zapatillas deportivas rojas">
+                </div>
+                <div class="info">
+                    <p class="tipo">ZAPATILLAS</p>
+                    <h3>Red Sport</h3>
+                    <p class="precio">$45.000</p>
+                    <button class="agregar" data-nombre="Red Sport" data-precio="45000">
+                        Comprar +
+                    </button>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="foto-producto">
+                    <span class="oferta nuevo"></span>
+                    <img class="producto-img"
+                        src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=85"
+                        alt="Zapatillas urbanas">
+                </div>
+                <div class="info">
+                    <p class="tipo">ZAPATILLAS</p>
+                    <h3>Urban Classic</h3>
+                    <p class="precio">$52.000</p>
+                    <button class="agregar" data-nombre="Urban Classic" data-precio="52000">
+                        Comprar +
+                    </button>
+                </div>
+            </article>
+
+            <article class="tarjeta" id="zapatos">
+                <div class="foto-producto">
+                    <img class="producto-img"
+                        src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=85"
+                        alt="Zapatos de mujer">
+                </div>
+                <div class="info">
+                    <p class="tipo">ZAPATOS</p>
+                    <h3>Elegance</h3>
+                    <p class="precio">$39.000</p>
+                    <button class="agregar" data-nombre="Elegance" data-precio="39000">
+                        Comprar+
+                    </button>
+                </div>
+            </article>
+
+            <article class="tarjeta">
+                <div class="foto-producto">
+                    <img class="producto-img"
+                        src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=700&q=85"
+                        alt="Zapatillas deportivas modernas">
+                </div>
+                <div class="info">
+                    <p class="tipo">ZAPATILLAS</p>
+                    <h3>Street Style</h3>
+                    <p class="precio">$48.000</p>
+                    <button class="agregar" data-nombre="Street Style" data-precio="48000">
+                        Comprar +
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="promo" id="nosotros">
+        <div>
+            <span>STEPUP STORE</span>
+            <h2>Tu próximo look empieza acá.</h2>
+            <p>Encontrá comodidad y personalidad en cada paso.</p>
+            <a href="#productos" class="boton">Explorar productos</a>
+        </div>
+    </section>
+
+    <section class="carrito">
+        <h2> Tu carrito</h2>
+        <p id="cantidad">Productos agregados: 0</p>
+        <ul id="lista-carrito"></ul>
+        <h3 id="total">Total: $0</h3>
+        <button id="vaciar">Vaciar carrito</button>
+    </section>
+
+    <footer>
+        <h2>RCZAPATOS </h2>
+        <p>Estilo, comodidad y moda en cada paso.</p>
+        <p>© 2026 RCZAPATOS Store | Todos los derechos reservados</p>
+        <p>create by Cañete Romina</p>
+    </footer>
+
+
+</body>
+</html>
